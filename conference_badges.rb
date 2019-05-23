@@ -14,16 +14,13 @@ end
 
 def assign_rooms(attendees)
   arr = []
-  
   attendees.each_with_index do |attendee, index|
     arr.push("Hello, #{attendee}! You'll be assigned to room #{index+1}!")
   end
-  
   arr
 end
 
 def printer(attendees)
-  
   batch_badge_creator(attendees).each do |greeting|
     puts greeting
   end
@@ -31,5 +28,4 @@ def printer(attendees)
   assign_rooms(attendees).each do |assignment|
     puts assignment
   end
-  
 end
