@@ -23,6 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  pbuts atch_badge_creator(attendees)
+  batch_badge_creator(attendees)[0]
   
 end
