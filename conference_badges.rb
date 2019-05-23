@@ -28,7 +28,7 @@ def printer(attendees)
     puts greeting
   end
   
-  
+  assign_rooms(attendees)
   
   
 end
